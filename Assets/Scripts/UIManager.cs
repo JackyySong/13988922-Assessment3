@@ -23,4 +23,10 @@ public class UIManager : MonoBehaviour
         SceneManager.LoadScene(1);
         
     }
+    public void ExitGame()
+    {
+
+        SceneManager.LoadScene(0);
+
+    }
 }
